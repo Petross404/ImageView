@@ -1,22 +1,19 @@
 #ifndef IMAGEVIEW_H
 #define IMAGEVIEW_H
 
-#include <QMainWindow>
-
-namespace Ui {
-class ImageView;
-}
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QGridLayout>
 
 class ImageView : public QMainWindow
 {
-    Q_OBJECT
+        Q_OBJECT
 
 public:
-    explicit ImageView(QWidget *parent = 0);
-    ~ImageView();
+        ImageView(QWidget *parent = 0);
 
 private:
-    Ui::ImageView *ui;
 };
 
 #endif // IMAGEVIEW_H

@@ -14,10 +14,6 @@ set(imageview_SRC
   src/imageview.cpp
 )
 
-# Create code from a list of Qt designer ui files.
-#set(CMAKE_AUTOUIC ON) # use this if you have CMake 3.x instead of the following
-qt5_wrap_ui(imageview_SRC src/imageview.ui)
-
 # Tell CMake to create the helloworld executable
 add_executable(imageview ${imageview_SRC})
 
