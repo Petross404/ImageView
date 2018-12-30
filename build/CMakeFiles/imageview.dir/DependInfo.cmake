@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/petros/projects/ImageView/build/imageview_autogen/mocs_compilation.cpp" "C:/Users/petros/projects/ImageView/build/CMakeFiles/imageview.dir/imageview_autogen/mocs_compilation.cpp.obj"
-  "C:/Users/petros/projects/ImageView/src/imageview.cpp" "C:/Users/petros/projects/ImageView/build/CMakeFiles/imageview.dir/src/imageview.cpp.obj"
-  "C:/Users/petros/projects/ImageView/src/main.cpp" "C:/Users/petros/projects/ImageView/build/CMakeFiles/imageview.dir/src/main.cpp.obj"
+  "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/imageview_autogen/mocs_compilation.cpp" "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/CMakeFiles/imageview.dir/imageview_autogen/mocs_compilation.cpp.o"
+  "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/imageview.cpp" "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/CMakeFiles/imageview.dir/src/imageview.cpp.o"
+  "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/main.cpp" "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/CMakeFiles/imageview.dir/src/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -22,12 +22,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
   "imageview_autogen/include"
-  "C:/Qt/5.12.0/msvc2017_64/include"
-  "C:/Qt/5.12.0/msvc2017_64/include/QtWidgets"
-  "C:/Qt/5.12.0/msvc2017_64/include/QtGui"
-  "C:/Qt/5.12.0/msvc2017_64/include/QtANGLE"
-  "C:/Qt/5.12.0/msvc2017_64/include/QtCore"
-  "C:/Qt/5.12.0/msvc2017_64/./mkspecs/win32-msvc"
+  "/usr/include/qt5"
+  "/usr/include/qt5/QtWidgets"
+  "/usr/include/qt5/QtGui"
+  "/usr/include/qt5/QtCore"
+  "/usr/lib64/qt5/mkspecs/linux-g++"
   )
 
 # Targets to which this target links.

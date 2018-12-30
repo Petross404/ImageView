@@ -1,3 +1,4 @@
 [Project]
-Name=ImageView
+CreatedFrom=CMakeLists.txt
 Manager=KDevCMakeManager
+Name=ImageView

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "imageview_autogen"
-  "CMakeFiles/imageview_autogen.dir/AutogenOldSettings.cmake"
+  "CMakeFiles/imageview_autogen.dir/AutogenOldSettings.txt"
   "CMakeFiles/imageview_autogen"
+  "imageview_autogen/mocs_compilation.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

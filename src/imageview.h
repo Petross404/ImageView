@@ -6,14 +6,16 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QGridLayout>
 
-class ImageView : public QMainWindow
+#include <KXmlGui/KXmlGuiWindow>
+
+class ImageView : public KXmlGuiWindow
 {
-        Q_OBJECT
 
 public:
-        ImageView(QWidget *parent = 0);
+	explicit ImageView( QWidget *parent = 0 );
 
 private:
+	void setupActions();
 };
 
 #endif // IMAGEVIEW_H

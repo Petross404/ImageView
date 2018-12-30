@@ -6,39 +6,73 @@
 
 #IncludeRegexTransform: 
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qalgorithms.h
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/imageview_autogen/UVLADIE3JM/moc_imageview.cpp
+../../../src/imageview.h
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/imageview.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/imageview_autogen/mocs_compilation.cpp
+UVLADIE3JM/moc_imageview.cpp
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/imageview_autogen/UVLADIE3JM/moc_imageview.cpp
+
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/imageview.cpp
+imageview.h
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/imageview.h
+
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/imageview.h
+QtWidgets/QMainWindow
+-
+QtWidgets/QLabel
+-
+QtWidgets/QPushButton
+-
+QtWidgets/QGridLayout
+-
+
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/main.cpp
+imageview.h
+/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/src/imageview.h
+QApplication
+-
+
+/usr/include/qt5/Gentoo/gentoo-qconfig.h
+
+/usr/include/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
 -
 intrin.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qarraydata.h
+/usr/include/qt5/QtCore/qarraydata.h
 QtCore/qrefcount.h
 -
 string.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qatomic.h
+/usr/include/qt5/QtCore/qatomic.h
 QtCore/qglobal.h
 -
 QtCore/qbasicatomic.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qatomic_bootstrap.h
+/usr/include/qt5/QtCore/qatomic_bootstrap.h
 QtCore/qgenericatomic.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qatomic_cxx11.h
+/usr/include/qt5/QtCore/qatomic_cxx11.h
 QtCore/qgenericatomic.h
 -
 atomic
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qatomic_msvc.h
+/usr/include/qt5/QtCore/qatomic_msvc.h
 QtCore/qgenericatomic.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qbasicatomic.h
+/usr/include/qt5/QtCore/qbasicatomic.h
 QtCore/qatomic.h
 -
 QtCore/qatomic_bootstrap.h
@@ -48,7 +82,7 @@ QtCore/qatomic_cxx11.h
 QtCore/qatomic_msvc.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qbytearray.h
+/usr/include/qt5/QtCore/qbytearray.h
 QtCore/qrefcount.h
 -
 QtCore/qnamespace.h
@@ -66,31 +100,33 @@ string
 iterator
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qbytearraylist.h
+/usr/include/qt5/QtCore/qbytearraylist.h
 QtCore/qlist.h
 -
 QtCore/qbytearray.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qchar.h
+/usr/include/qt5/QtCore/qchar.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qcompilerdetection.h
+/usr/include/qt5/QtCore/qcompilerdetection.h
 QtCore/qglobal.h
 -
 utility
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qconfig-bootstrapped.h
+/usr/include/qt5/QtCore/qconfig-bootstrapped.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qconfig.h
+/usr/include/qt5/QtCore/qconfig.h
+Gentoo/gentoo-qconfig.h
+-
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qcontainerfwd.h
+/usr/include/qt5/QtCore/qcontainerfwd.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qcontiguouscache.h
+/usr/include/qt5/QtCore/qcontiguouscache.h
 QtCore/qatomic.h
 -
 limits.h
@@ -98,7 +134,21 @@ limits.h
 new
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qcoreevent.h
+/usr/include/qt5/QtCore/qcoreapplication.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qobject.h
+-
+QtCore/qcoreevent.h
+-
+QtCore/qeventloop.h
+-
+QtCore/qscopedpointer.h
+-
+
+/usr/include/qt5/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
 QtCore/qbytearray.h
@@ -106,7 +156,7 @@ QtCore/qbytearray.h
 QtCore/qobjectdefs.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qdatastream.h
+/usr/include/qt5/QtCore/qdatastream.h
 QtCore/qscopedpointer.h
 -
 QtCore/qiodevice.h
@@ -114,7 +164,7 @@ QtCore/qiodevice.h
 QtCore/qpair.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qdebug.h
+/usr/include/qt5/QtCore/qdebug.h
 QtCore/qalgorithms.h
 -
 QtCore/qhash.h
@@ -146,7 +196,11 @@ map
 utility
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qfile.h
+/usr/include/qt5/QtCore/qeventloop.h
+QtCore/qobject.h
+-
+
+/usr/include/qt5/QtCore/qfile.h
 QtCore/qfiledevice.h
 -
 QtCore/qstring.h
@@ -154,25 +208,25 @@ QtCore/qstring.h
 stdio.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qfiledevice.h
+/usr/include/qt5/QtCore/qfiledevice.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qflags.h
+/usr/include/qt5/QtCore/qflags.h
 QtCore/qglobal.h
 -
 initializer_list
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qgenericatomic.h
+/usr/include/qt5/QtCore/qgenericatomic.h
 QtCore/qglobal.h
 -
 QtCore/qtypeinfo.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qglobal.h
+/usr/include/qt5/QtCore/qglobal.h
 type_traits
 -
 cstddef
@@ -214,7 +268,7 @@ QtCore/qnumeric.h
 QtCore/qversiontagging.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qglobalstatic.h
+/usr/include/qt5/QtCore/qglobalstatic.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -222,7 +276,7 @@ QtCore/qatomic.h
 QtCore/qmutex.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qhash.h
+/usr/include/qt5/QtCore/qhash.h
 QtCore/qchar.h
 -
 QtCore/qiterator.h
@@ -238,7 +292,7 @@ initializer_list
 algorithm
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qhashfunctions.h
+/usr/include/qt5/QtCore/qhashfunctions.h
 QtCore/qstring.h
 -
 QtCore/qpair.h
@@ -246,7 +300,7 @@ QtCore/qpair.h
 numeric
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qiodevice.h
+/usr/include/qt5/QtCore/qiodevice.h
 QtCore/qglobal.h
 -
 QtCore/qobject.h
@@ -258,15 +312,15 @@ QtCore/qscopedpointer.h
 QtCore/qstring.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qiterator.h
+/usr/include/qt5/QtCore/qiterator.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qline.h
+/usr/include/qt5/QtCore/qline.h
 QtCore/qpoint.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qlist.h
+/usr/include/qt5/QtCore/qlist.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -298,7 +352,7 @@ QtCore/qbytearraylist.h
 QtCore/qstringlist.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qlocale.h
+/usr/include/qt5/QtCore/qlocale.h
 QtCore/qvariant.h
 -
 QtCore/qstring.h
@@ -308,11 +362,11 @@ QtCore/qobjectdefs.h
 QtCore/qshareddata.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qlogging.h
+/usr/include/qt5/QtCore/qlogging.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qmap.h
+/usr/include/qt5/QtCore/qmap.h
 QtCore/qiterator.h
 -
 QtCore/qlist.h
@@ -332,11 +386,11 @@ functional
 initializer_list
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qmargins.h
+/usr/include/qt5/QtCore/qmargins.h
 QtCore/qnamespace.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qmetatype.h
+/usr/include/qt5/QtCore/qmetatype.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -356,7 +410,7 @@ list
 map
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qmutex.h
+/usr/include/qt5/QtCore/qmutex.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -368,15 +422,15 @@ chrono
 limits
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qnamespace.h
+/usr/include/qt5/QtCore/qnamespace.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qnumeric.h
+/usr/include/qt5/QtCore/qnumeric.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qobject.h
+/usr/include/qt5/QtCore/qobject.h
 QtCore/qobjectdefs.h
 -
 QtCore/qstring.h
@@ -396,31 +450,31 @@ QtCore/qobject_impl.h
 chrono
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qobject_impl.h
+/usr/include/qt5/QtCore/qobject_impl.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qobjectdefs.h
+/usr/include/qt5/QtCore/qobjectdefs.h
 QtCore/qnamespace.h
 -
 QtCore/qobjectdefs_impl.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qobjectdefs_impl.h
+/usr/include/qt5/QtCore/qobjectdefs_impl.h
 QtCore/qnamespace.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qpair.h
+/usr/include/qt5/QtCore/qpair.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qpoint.h
+/usr/include/qt5/QtCore/qpoint.h
 QtCore/qnamespace.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qprocessordetection.h
+/usr/include/qt5/QtCore/qprocessordetection.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qrect.h
+/usr/include/qt5/QtCore/qrect.h
 QtCore/qmargins.h
 -
 QtCore/qsize.h
@@ -428,23 +482,23 @@ QtCore/qsize.h
 QtCore/qpoint.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qrefcount.h
+/usr/include/qt5/QtCore/qrefcount.h
 QtCore/qatomic.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qregexp.h
+/usr/include/qt5/QtCore/qregexp.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qscopedpointer.h
+/usr/include/qt5/QtCore/qscopedpointer.h
 QtCore/qglobal.h
 -
 stdlib.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qset.h
+/usr/include/qt5/QtCore/qset.h
 QtCore/qhash.h
 -
 initializer_list
@@ -452,7 +506,7 @@ initializer_list
 iterator
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qshareddata.h
+/usr/include/qt5/QtCore/qshareddata.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -462,7 +516,7 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qsharedpointer.h
+/usr/include/qt5/QtCore/qsharedpointer.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -472,7 +526,7 @@ QtCore/qshareddata.h
 QtCore/qsharedpointer_impl.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qsharedpointer_impl.h
+/usr/include/qt5/QtCore/qsharedpointer_impl.h
 new
 -
 QtCore/qatomic.h
@@ -484,11 +538,11 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qsize.h
+/usr/include/qt5/QtCore/qsize.h
 QtCore/qnamespace.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qstring.h
+/usr/include/qt5/QtCore/qstring.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -512,11 +566,11 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qstringalgorithms.h
+/usr/include/qt5/QtCore/qstringalgorithms.h
 QtCore/qnamespace.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qstringbuilder.h
+/usr/include/qt5/QtCore/qstringbuilder.h
 QtCore/qstring.h
 -
 QtCore/qbytearray.h
@@ -524,7 +578,7 @@ QtCore/qbytearray.h
 string.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qstringlist.h
+/usr/include/qt5/QtCore/qstringlist.h
 QtCore/qlist.h
 -
 QtCore/qalgorithms.h
@@ -536,15 +590,15 @@ QtCore/qstring.h
 QtCore/qstringmatcher.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qstringliteral.h
+/usr/include/qt5/QtCore/qstringliteral.h
 QtCore/qarraydata.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qstringmatcher.h
+/usr/include/qt5/QtCore/qstringmatcher.h
 QtCore/qstring.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qstringview.h
+/usr/include/qt5/QtCore/qstringview.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -556,11 +610,11 @@ QtCore/qstringalgorithms.h
 string
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qsysinfo.h
+/usr/include/qt5/QtCore/qsysinfo.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qsystemdetection.h
+/usr/include/qt5/QtCore/qsystemdetection.h
 QtCore/qglobal.h
 -
 TargetConditionals.h
@@ -570,9 +624,9 @@ Availability.h
 AvailabilityMacros.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qtcore-config.h
+/usr/include/qt5/QtCore/qtcore-config.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qtextstream.h
+/usr/include/qt5/QtCore/qtextstream.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
@@ -586,11 +640,11 @@ QtCore/qscopedpointer.h
 stdio.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qtypeinfo.h
+/usr/include/qt5/QtCore/qtypeinfo.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qurl.h
+/usr/include/qt5/QtCore/qurl.h
 QtCore/qbytearray.h
 -
 QtCore/qobjectdefs.h
@@ -606,7 +660,7 @@ QtCore/qglobal.h
 QtCore/qurlquery.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qurlquery.h
+/usr/include/qt5/QtCore/qurlquery.h
 QtCore/qpair.h
 -
 QtCore/qshareddata.h
@@ -616,7 +670,7 @@ QtCore/qurl.h
 QtCore/qstringlist.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qvariant.h
+/usr/include/qt5/QtCore/qvariant.h
 QtCore/qatomic.h
 -
 QtCore/qbytearray.h
@@ -640,7 +694,7 @@ QtCore/qbytearraylist.h
 variant
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qvarlengtharray.h
+/usr/include/qt5/QtCore/qvarlengtharray.h
 QtCore/qcontainerfwd.h
 -
 QtCore/qglobal.h
@@ -660,7 +714,7 @@ initializer_list
 iterator
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qvector.h
+/usr/include/qt5/QtCore/qvector.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -688,11 +742,11 @@ algorithm
 QtCore/qpoint.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtCore/qversiontagging.h
+/usr/include/qt5/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qbrush.h
+/usr/include/qt5/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpair.h
@@ -714,7 +768,7 @@ QtGui/qimage.h
 QtGui/qpixmap.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qcolor.h
+/usr/include/qt5/QtGui/qcolor.h
 QtGui/qtguiglobal.h
 -
 QtGui/qrgb.h
@@ -726,7 +780,7 @@ QtCore/qstringlist.h
 QtGui/qrgba64.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qcursor.h
+/usr/include/qt5/QtGui/qcursor.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -734,7 +788,7 @@ QtCore/qpoint.h
 QtGui/qwindowdefs.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qevent.h
+/usr/include/qt5/QtGui/qevent.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -766,7 +820,7 @@ QtGui/qvector2d.h
 QtGui/qtouchdevice.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qfont.h
+/usr/include/qt5/QtGui/qfont.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -776,7 +830,7 @@ QtCore/qstring.h
 QtCore/qsharedpointer.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qfontinfo.h
+/usr/include/qt5/QtGui/qfontinfo.h
 QtGui/qtguiglobal.h
 -
 QtGui/qfont.h
@@ -784,7 +838,7 @@ QtGui/qfont.h
 QtCore/qsharedpointer.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qfontmetrics.h
+/usr/include/qt5/QtGui/qfontmetrics.h
 QtGui/qtguiglobal.h
 -
 QtGui/qfont.h
@@ -794,7 +848,23 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qicon.h
+/usr/include/qt5/QtGui/qguiapplication.h
+QtGui/qtguiglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtGui/qinputmethod.h
+-
+QtCore/qlocale.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+
+/usr/include/qt5/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsize.h
@@ -804,7 +874,7 @@ QtCore/qlist.h
 QtGui/qpixmap.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qimage.h
+/usr/include/qt5/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
@@ -826,7 +896,13 @@ QtCore/qstring.h
 QtCore/qstringlist.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qkeysequence.h
+/usr/include/qt5/QtGui/qinputmethod.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
+-
+
+/usr/include/qt5/QtGui/qkeysequence.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
@@ -834,7 +910,7 @@ QtCore/qstring.h
 QtCore/qobjectdefs.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qmatrix.h
+/usr/include/qt5/QtGui/qmatrix.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpolygon.h
@@ -850,7 +926,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qpaintdevice.h
+/usr/include/qt5/QtGui/qpaintdevice.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -858,7 +934,7 @@ QtGui/qwindowdefs.h
 QtCore/qrect.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qpainterpath.h
+/usr/include/qt5/QtGui/qpainterpath.h
 QtGui/qtguiglobal.h
 -
 QtGui/qmatrix.h
@@ -874,7 +950,7 @@ QtCore/qvector.h
 QtCore/qscopedpointer.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qpalette.h
+/usr/include/qt5/QtGui/qpalette.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -884,11 +960,11 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qpixelformat.h
+/usr/include/qt5/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qpixmap.h
+/usr/include/qt5/QtGui/qpixmap.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpaintdevice.h
@@ -906,7 +982,7 @@ QtGui/qimage.h
 QtGui/qtransform.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qpolygon.h
+/usr/include/qt5/QtGui/qpolygon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qvector.h
@@ -916,7 +992,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qregion.h
+/usr/include/qt5/QtGui/qregion.h
 QtGui/qtguiglobal.h
 -
 QtCore/qatomic.h
@@ -928,33 +1004,33 @@ QtGui/qwindowdefs.h
 QtCore/qdatastream.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qrgb.h
+/usr/include/qt5/QtGui/qrgb.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qrgba64.h
+/usr/include/qt5/QtGui/qrgba64.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qtgui-config.h
+/usr/include/qt5/QtGui/qtgui-config.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qtguiglobal.h
+/usr/include/qt5/QtGui/qtguiglobal.h
 QtCore/qglobal.h
 -
 QtGui/qtgui-config.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qtouchdevice.h
+/usr/include/qt5/QtGui/qtouchdevice.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qtransform.h
+/usr/include/qt5/QtGui/qtransform.h
 QtGui/qtguiglobal.h
 -
 QtGui/qmatrix.h
@@ -974,7 +1050,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qvector2d.h
+/usr/include/qt5/QtGui/qvector2d.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -982,7 +1058,7 @@ QtCore/qpoint.h
 QtCore/qmetatype.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qwindowdefs.h
+/usr/include/qt5/QtGui/qwindowdefs.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobjectdefs.h
@@ -992,27 +1068,31 @@ QtCore/qnamespace.h
 QtGui/qwindowdefs_win.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtGui/qwindowdefs_win.h
+/usr/include/qt5/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/QGridLayout
+/usr/include/qt5/QtWidgets/QApplication
+qapplication.h
+/usr/include/qt5/QtWidgets/qapplication.h
+
+/usr/include/qt5/QtWidgets/QGridLayout
 qgridlayout.h
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qgridlayout.h
+/usr/include/qt5/QtWidgets/qgridlayout.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/QLabel
+/usr/include/qt5/QtWidgets/QLabel
 qlabel.h
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qlabel.h
+/usr/include/qt5/QtWidgets/qlabel.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/QMainWindow
+/usr/include/qt5/QtWidgets/QMainWindow
 qmainwindow.h
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qmainwindow.h
+/usr/include/qt5/QtWidgets/qmainwindow.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/QPushButton
+/usr/include/qt5/QtWidgets/QPushButton
 qpushbutton.h
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qpushbutton.h
+/usr/include/qt5/QtWidgets/qpushbutton.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qabstractbutton.h
+/usr/include/qt5/QtWidgets/qabstractbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qicon.h
@@ -1022,7 +1102,25 @@ QtGui/qkeysequence.h
 QtWidgets/qwidget.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qboxlayout.h
+/usr/include/qt5/QtWidgets/qapplication.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtWidgets/qdesktopwidget.h
+-
+QtGui/qguiapplication.h
+-
+
+/usr/include/qt5/QtWidgets/qboxlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlayout.h
@@ -1032,13 +1130,19 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qframe.h
+/usr/include/qt5/QtWidgets/qdesktopwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qgridlayout.h
+/usr/include/qt5/QtWidgets/qframe.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/qt5/QtWidgets/qgridlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlayout.h
@@ -1048,13 +1152,13 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qlabel.h
+/usr/include/qt5/QtWidgets/qlabel.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qlayout.h
+/usr/include/qt5/QtWidgets/qlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -1074,7 +1178,7 @@ QtWidgets/qboxlayout.h
 QtWidgets/qgridlayout.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qlayoutitem.h
+/usr/include/qt5/QtWidgets/qlayoutitem.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qsizepolicy.h
@@ -1084,7 +1188,7 @@ QtCore/qrect.h
 limits.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qmainwindow.h
+/usr/include/qt5/QtWidgets/qmainwindow.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -1092,13 +1196,13 @@ QtWidgets/qwidget.h
 QtWidgets/qtabwidget.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qpushbutton.h
+/usr/include/qt5/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qsizepolicy.h
+/usr/include/qt5/QtWidgets/qsizepolicy.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -1106,7 +1210,7 @@ QtCore/qobject.h
 QtCore/qalgorithms.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qtabwidget.h
+/usr/include/qt5/QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -1114,15 +1218,15 @@ QtWidgets/qwidget.h
 QtGui/qicon.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qtwidgets-config.h
+/usr/include/qt5/QtWidgets/qtwidgets-config.h
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qtwidgetsglobal.h
+/usr/include/qt5/QtWidgets/qtwidgetsglobal.h
 QtGui/qtguiglobal.h
 -
 QtWidgets/qtwidgets-config.h
 -
 
-C:/Qt/5.12.0/msvc2017_64/include/QtWidgets/qwidget.h
+/usr/include/qt5/QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qwindowdefs.h
@@ -1152,19 +1256,5 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
--
-
-C:/Users/petros/projects/ImageView/src/imageview.cpp
-imageview.h
-C:/Users/petros/projects/ImageView/src/imageview.h
-
-C:/Users/petros/projects/ImageView/src/imageview.h
-QtWidgets/QMainWindow
--
-QtWidgets/QLabel
--
-QtWidgets/QPushButton
--
-QtWidgets/QGridLayout
 -
 

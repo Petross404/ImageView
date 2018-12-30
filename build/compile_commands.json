@@ -1,23 +1,7 @@
 [
 {
-  "directory": "C:/Users/petros/projects/ImageView/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe @<<
- /nologo /TP -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -IC:\\Users\\petros\\projects\\ImageView\\build -IC:\\Users\\petros\\projects\\ImageView -IC:\\Users\\petros\\projects\\ImageView\\build\\imageview_autogen\\include -IC:\\Qt\\5.12.0\\msvc2017_64\\include -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtWidgets -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtGui -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtANGLE -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtCore -IC:\\Qt\\5.12.0\\msvc2017_64\\.\\mkspecs\\win32-msvc  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\imageview.dir\\src\\main.cpp.obj /FdCMakeFiles\\imageview.dir\\ /FS -c C:\\Users\\petros\\projects\\ImageView\\src\\main.cpp
-<<",
-  "file": "C:/Users/petros/projects/ImageView/src/main.cpp"
-},
-{
-  "directory": "C:/Users/petros/projects/ImageView/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe @<<
- /nologo /TP -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -IC:\\Users\\petros\\projects\\ImageView\\build -IC:\\Users\\petros\\projects\\ImageView -IC:\\Users\\petros\\projects\\ImageView\\build\\imageview_autogen\\include -IC:\\Qt\\5.12.0\\msvc2017_64\\include -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtWidgets -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtGui -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtANGLE -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtCore -IC:\\Qt\\5.12.0\\msvc2017_64\\.\\mkspecs\\win32-msvc  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\imageview.dir\\src\\imageview.cpp.obj /FdCMakeFiles\\imageview.dir\\ /FS -c C:\\Users\\petros\\projects\\ImageView\\src\\imageview.cpp
-<<",
-  "file": "C:/Users/petros/projects/ImageView/src/imageview.cpp"
-},
-{
-  "directory": "C:/Users/petros/projects/ImageView/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe @<<
- /nologo /TP -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -IC:\\Users\\petros\\projects\\ImageView\\build -IC:\\Users\\petros\\projects\\ImageView -IC:\\Users\\petros\\projects\\ImageView\\build\\imageview_autogen\\include -IC:\\Qt\\5.12.0\\msvc2017_64\\include -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtWidgets -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtGui -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtANGLE -IC:\\Qt\\5.12.0\\msvc2017_64\\include\\QtCore -IC:\\Qt\\5.12.0\\msvc2017_64\\.\\mkspecs\\win32-msvc  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\imageview.dir\\imageview_autogen\\mocs_compilation.cpp.obj /FdCMakeFiles\\imageview.dir\\ /FS -c C:\\Users\\petros\\projects\\ImageView\\build\\imageview_autogen\\mocs_compilation.cpp
-<<",
-  "file": "C:/Users/petros/projects/ImageView/build/imageview_autogen/mocs_compilation.cpp"
+  "directory": "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build",
+  "command": "/usr/bin/c++  -DKCOREADDONS_LIB -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -I/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build -I/mnt/Volume_3/Gentoo/projects/CPlus/ImageView -I/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/ImageView_autogen/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtCore -isystem /usr/lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/KF5/KCoreAddons -isystem /usr/include/KF5 -isystem /usr/include/KF5/KI18n -isystem /usr/include/KF5/KXmlGui -isystem /usr/include/qt5/QtDBus -isystem /usr/include/qt5/QtXml -isystem /usr/include/KF5/KConfigCore -isystem /usr/include/KF5/KConfigWidgets -isystem /usr/include/KF5/KCodecs -isystem /usr/include/KF5/KWidgetsAddons -isystem /usr/include/KF5/KConfigGui -isystem /usr/include/KF5/KAuth   -std=c++0x -fno-operator-names -fno-exceptions -Wall -Wextra -Wcast-align -Wchar-subscripts -Wformat-security -Wno-long-long -Wpointer-arith -Wundef -Wnon-virtual-dtor -Woverloaded-virtual -Werror=return-type -Wvla -Wdate-time -g -fvisibility=hidden -fvisibility-inlines-hidden   -fPIC -std=gnu++11 -o CMakeFiles/ImageView.dir/ImageView_autogen/mocs_compilation.cpp.o -c /mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/ImageView_autogen/mocs_compilation.cpp",
+  "file": "/mnt/Volume_3/Gentoo/projects/CPlus/ImageView/build/ImageView_autogen/mocs_compilation.cpp"
 }
 ]

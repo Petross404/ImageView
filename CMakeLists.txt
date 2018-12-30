@@ -1,24 +1,43 @@
 cmake_minimum_required(VERSION 2.8.11)
 project(ImageView)
 
-# Find includes in corresponding build directories
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-# Instruct CMake to run moc automatically when needed.
-set(CMAKE_AUTOMOC ON)
+set(QT_MIN_VERSION "5.3.0")
+set(KF5_MIN_VERSION "5.2.0")
 
-# Find the QtWidgets library
-find_package(Qt5Widgets CONFIG REQUIRED)
+find_package(ECM 1.0.0 REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
-set(imageview_SRC
-  src/main.cpp
-  src/imageview.cpp
+
+include(KDEInstallDirs)
+include(KDECMakeSettings)
+include(KDECompilerSettings NO_POLICY_SCOPE)
+include(FeatureSummary)
+
+find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS 
+	Core    # QCommandLineParser, QStringLiteral
+	Widgets # QApplication 
 )
 
-# Tell CMake to create the helloworld executable
-add_executable(imageview ${imageview_SRC})
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
+	CoreAddons      # KAboutData
+	I18n            # KLocalizedString
+	XmlGui          # KXmlGuiWindow
+)
 
-# Use the Widgets module from Qt 5.
-target_link_libraries(imageview Qt5::Widgets)
+set(ImageView_SRC
+	src/main.cpp
+	src/imageview.cpp
+)
 
-# Install the executable
-install(TARGETS imageview DESTINATION bin)
+feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+add_executable(ImageView ${ImageView_SRCS})
+
+target_link_libraries(ImageView
+	Qt5::Widgets
+	KF5::CoreAddons
+	KF5::I18n
+	KF5::XmlGui
+)
+
+install(TARGETS ImageView  ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
